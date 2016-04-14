@@ -3,9 +3,10 @@
 var quickfireServer  = require('../lib/quick-fire-server');
 var program = require('commander');
 
-var default_port = 4000;
+var default_port = 4001;
 
   program
+    .version('0.0.1')
     .command('start')
     .alias('s')
     .description('Starts Quick Fire server')
@@ -14,6 +15,6 @@ var default_port = 4000;
       quickfireServer.listen(options.port || default_port, function () {
         console.log('Quickfire started on http://localhost:%s/', options.port || default_port);
       });
-    })
+  })
 
 program.parse(process.argv);

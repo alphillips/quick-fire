@@ -4,7 +4,7 @@
   "description": "A really simple no-backend server",
   "main": "./lib/quick-fire-server.js",
   "bin": {
-     "quickfire": "./bin/main.js"
+     "quickfire": "./bin/quickfire.js"
    },
   "dependencies": {
     "body-parser": "^1.15.0",

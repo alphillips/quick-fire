@@ -12,9 +12,30 @@ quickfire start
 ```
 And start firing off AJAX requests.
 
-See Getting Started below
+## Getting Started
 
-## Here's the spec
+### Install
+
+CD to your working directory where static files are and install Quick Fire
+
+```
+npm install https://github.com/alphillips/quick-fire.git
+```
+
+Then type `quickfire start` To start the server
+```
+> quickfire start
+
+Quickfire started on http://localhost:4000/
+
+```
+
+
+### Use
+You can start making AJAX request which will create or read your no-backned database.
+No configuration, no setting up schemas.
+
+### Here's the spec
 
 ```
 POST /api/[your-resource]   
@@ -55,33 +76,28 @@ GET /api/[your-resource]?search=[JSON String]]
 ```
 return JSON Array based on the search criteria
 
-## Getting Started
+### Example
 
-### Install
-
-CD to your working directory where static files are and install Quick Fire
-
-```
-npm install https://github.com/alphillips/quick-fire.git
-```
-
-Then type `quickfire start` To start the server
-```
-> quickfire start
-
-Quickfire started on http://localhost:4000/
-
+Add a file `fire.html` to your root directory
 ```
 
 
-### Use
-You can start making AJAX request which will create or read your no-backned database.
-No configuration, no setting up schemas.
+```
 
-### About
+Start Quick Fire
+```
+quickfire Start
+```
+
+Go to http://localhost:4000/fire.html in your browser
+
+
+
+
+## About
 Quick Fire uses the awesome [NeDB](https://github.com/louischatriot/nedb) as the backend.
 
-Written for good friend [Breno](https://github.com/brenopittoli)
+Written for my good friend [Breno](https://github.com/brenopittoli)
 
 ## Coming Soon
 
@@ -96,3 +112,6 @@ Written for good friend [Breno](https://github.com/brenopittoli)
 
 
 4. Unit Tests lol
+
+
+5. Example using React
