@@ -58,10 +58,25 @@ return JSON Array based on the search criteria
 ## Getting Started
 
 ### Install
-Coming soon
+
+CD to your working directory where static files are and install Quick Fire
+
+```
+npm install https://github.com/alphillips/quick-fire.git
+```
+
+Then type `quickfire start` To start the server
+```
+> quickfire start
+
+Quickfire started on http://localhost:4000/
+
+```
+
 
 ### Use
-
+You can start making AJAX request which will create or read your no-backned database.
+No configuration, no setting up schemas.
 
 ### About
 Quick Fire uses the awesome [NeDB](https://github.com/louischatriot/nedb) as the backend.
