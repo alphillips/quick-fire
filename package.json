@@ -1,0 +1,24 @@
+{
+  "name": "quickfire",
+  "version": "0.0.1",
+  "description": "A really simple no-backend server",
+  "main": "./lib/quick-fire-server.js",
+  "bin": {
+     "quickfire": "./bin/main.js"
+   },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "http": "^0.0.0",
+    "morgan": "^1.7.0",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alphillips",
+  "license": "MIT"
+}
