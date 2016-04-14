@@ -3,7 +3,7 @@
 var quickfireServer  = require('../lib/quick-fire-server');
 var program = require('commander');
 
-var default_port = 4001;
+var default_port = 4000;
 
   program
     .version('0.0.1')
