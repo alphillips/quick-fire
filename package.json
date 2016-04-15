@@ -4,8 +4,8 @@
   "description": "A really simple no-backend server",
   "main": "./lib/quick-fire-server.js",
   "bin": {
-     "quickfire": "./bin/quickfire.js"
-   },
+    "quickfire": "./bin/quickfire.js"
+  },
   "dependencies": {
     "body-parser": "^1.15.0",
     "commander": "^2.9.0",
@@ -15,9 +15,13 @@
     "nedb": "^1.8.0",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",    
+    "mocha": "^2.4.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "alphillips",
   "license": "MIT"
