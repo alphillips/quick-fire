@@ -19,7 +19,7 @@ And start firing off AJAX requests.
 CD to your working directory where static files are and install Quick Fire
 
 ```
-npm install https://github.com/alphillips/quick-fire.git
+npm install -g https://github.com/alphillips/quick-fire.git
 ```
 \*(not published to npm yet)
 
