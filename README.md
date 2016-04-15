@@ -30,7 +30,11 @@ Then type `quickfire start` To start the server
 Quickfire started on http://localhost:4000/
 
 ```
-
+You can change the port using -p
+```
+>quickfire start -p 8080
+Quickfire started on http://localhost:8080/
+```
 
 ### Use
 You can start making AJAX request which will create records or read records from your no-backned database.
