@@ -33,7 +33,7 @@ Quickfire started on http://localhost:4000/
 
 
 ### Use
-You can start making AJAX request which will create or read your no-backned database.
+You can start making AJAX request which will create records or read records from your no-backned database.
 No configuration, no setting up schemas.
 
 ### Here's the spec
@@ -83,9 +83,9 @@ You can use a REST client like [Postman](https://www.getpostman.com/) and to sta
 
 ```
 POST http://localhost:4000/api/pet/
-```
-*Content-Type application/json*
-```
+
+Content-Type application/json
+
 {
   "type": "dog",
   "name": "Tilly"
@@ -109,8 +109,7 @@ Update the data with a PUT
 
 ```
 PUT http://localhost:4000/api/pet/XAghgrwk2t5pmXmh
-```
-```
+
 {
   "type": "dog",
   "name": "Tilly",
@@ -138,8 +137,7 @@ GET http://localhost:4000/api/pet/
 Add a second object
 ```
 POST http://localhost:4000/api/pet/
-```
-```
+
 {
   "type": "cat",
   "name": "Missy"
