@@ -214,16 +214,4 @@ Quick Fire uses the awesome [NeDB](https://github.com/louischatriot/nedb) as the
 
 Written for my good friend [Breno](https://github.com/brenopittoli)
 
-## Coming Soon
 
-1. More command line options
-   Such as `quickfire wipe` and `quickfire load`
-
-
-2. Brunch plugin
-
-
-3. GraphQL support
-
-
-4. Example using React
